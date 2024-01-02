@@ -1,0 +1,44 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
+class Main {
+  public static void main(String[] args) {
+    // ----------------------------Task 1: Variables
+    String firstName = "Nada";
+    String lastName = "Alshaibani";
+    int age = 23;
+    double amount = 178;
+    System.out.println(" " + firstName + "\n " + lastName + "\n " + age + "\n " + amount);
+    boolean isMarried = false;
+
+    double newAmount = 20;
+    String deposit = "Deposit";
+    String withdraw = "Withdraw";
+
+    System.out.println("The amount is " + newAmount + "KD \n Would you like to " + deposit + " or " + withdraw + "the amount?" );
+
+    int amnt = 5;
+    System.out.println("" + amnt + " plus " + amnt + " makes " + (amnt + amnt));    
+  
+  String fullName = "Nada Alshaibani";
+  int len = lastName. length();
+  System.out.println("My name is " + fullName + " and my last name length is " + len + " characers long");
+    
+System.out.println(lastName.startsWith("A"));   
+
+    // ---------------------- Task 2: Arithmetic
+
+  double amt = 86;
+  System.out.println("Kuwaiti Dinar to US Dollars: \n Amount in KWD x 3.25 ");
+  System.out.println( amt+ " KWD = " + (amt * 3.25)+" USD");
+    // BONUS
+  System.out.println("Euro to KD: \n Amount in EU x 2.97 ");
+  System.out.println( amt+ " EU = " + (amt * 2.97)+" KWD");
+
+}
+  // @Test
+  // void addition() {
+  // assertEquals(2, 1 + 1);
+  // }
+}
